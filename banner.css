@@ -1,0 +1,47 @@
+ .banner{
+    border: 2px solid red;
+    
+    
+ }
+.banner video{
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+} 
+.banner h1{
+    font-family: cursive;
+    color: white;
+    font-display:inherit;
+   background-image: linear-gradient(10deg,rgb(137, 150, 137,0.8),rgb(173, 71, 71,0.2),rgb(89, 80, 205,0.9));
+   border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    padding: 5px;
+    transition: all 1s;
+   
+}
+.banner h3{
+    /* border: 2px solid red; */
+    border-radius: 25px;
+    color: white;
+    font-family:sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    right: 36%;
+    padding: 15px;
+    font-size: larger;
+    
+    transition: all 1s;
+    background-image: linear-gradient(180deg,rgb(137, 150, 137,0.8),rgb(173, 71, 71,0.2),rgb(89, 80, 205,0.9));
+}
+h1:hover{
+    background-color: rgb(146, 5, 5);
+    color: #fff200;
+    font-weight:500;
+}
+h3:hover{
+    background-color: rgb(146, 5, 5);
+    color: #fff200;
+    font-weight:500;}
