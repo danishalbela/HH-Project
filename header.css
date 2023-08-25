@@ -1,0 +1,37 @@
+nav>img{
+    height: 70px;
+    width: 70px;
+
+}
+nav{
+    padding: 5px;
+    border: 3px solid red;
+    height: 70px;
+    position: relative;
+    background-image: linear-gradient(green,white,orange);
+    /* background-color: rgb(95, 180, 225); */
+}
+nav>ul{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    margin-left: 150px;
+    
+}
+nav>ul li{
+    /* border: 2px solid rgb(6, 11, 1); */
+    display: inline-block;
+    margin-right: 25px;
+    padding: 5;
+    border-radius: 5px;
+    padding: 2px;
+    /* background-color: rgb(143, 143, 190); */
+    color: rgb(7, 6, 6);
+    transition: all 1s;
+    font-family: cursive;
+}
+nav>ul li:hover{
+       background-color: yellow;
+}
+
